@@ -147,5 +147,5 @@ We rebuild the parent application and find this:
 ## Takeaways
 * As far as I can tell, the concept of a central index file for merging module exports can not/should not be used with webpack, as it leads to including way too much in the final bundle
 * Be very aware of the libraries you're pulling into your projects, and use libraries that fully support es6 modules where possible. If that's not available - tree shaking doesn't help and the library will just be pulled in as a whole
-* When writing modular code, the key point we need to remember is creating lots of small modules with a discrete purpose.  
+* When writing modular code, the key point to remember is to create lots of small modules with a discrete purpose and limit dependencies in those modules to as small of a subset as possible
   * If any exported member of a module is used, the entire module is pulled in to the bundle. i.e.: If a "utilities" module has many functions that exist in a single module file (along with dependencies for those functions), this will mean your bundle will include all of that code and dependencies even if you just use a 2-line utility function.
