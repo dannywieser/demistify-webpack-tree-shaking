@@ -63,7 +63,7 @@ And suddenly the bundle is even bigger than with the 'lodash' package :(
 
 ## Step 3
 
-Next let's pull in an external module (i.e. another internal Bb library), that also uses lodash.
+Next let's pull in another module (say something written by another team in your organization), that also uses lodash.
 
 Package ModuleA contains the following 2 files:
 
