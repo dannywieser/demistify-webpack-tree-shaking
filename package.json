@@ -1,0 +1,27 @@
+{
+  "name": "demistify-webpack-tree-shaking",
+  "version": "1.0.0",
+  "description": "Example project to show usages and limitations of Webpack tree shaking",
+  "main": "index.js",
+  "repository": "git@github.com:dannywieser/demistify-webpack-tree-shaking.git",
+  "author": "danny.wieser@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "demo": "webpack-dev-server --config webpack.config.js",
+    "analyze": "webpack"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.1",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.3",
+    "webpack": "^4.20.2",
+    "webpack-bundle-analyzer": "^3.0.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "lodash-es": "^4.17.11"
+  }
+}
