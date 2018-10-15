@@ -2,7 +2,7 @@
 
 This is a simple prototype project to clarify/illustrate how tree-shaking works in Webpack.
 
-There is a lot of general documentation on how to use tree-shaking, but not a lot of specific guidelines on how to use it, and it's limitations
+There is a lot of general documentation on how to use tree-shaking, but not many specific guidelines on how to use it - and in particular notes about limitations.
 
 ## tl;dr:
 I was expecting way too much of tree shaking - it works, but I was expecting way too much magic.
